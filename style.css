@@ -1,33 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-}
-
-h1 {
-    color: #333;
     text-align: center;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-p {
-    color: #666;
+header {
+    background: linear-gradient(to right, #4a90e2, #9013fe);
+    color: #fff;
+    padding: 20px 0;
+}
+
+main {
+    flex: 1;
+    padding: 50px;
+}
+
+footer {
+    background: linear-gradient(to right, #4a90e2, #9013fe);
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
+    margin-top: auto;
 }
-
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #333;
-}
-
-/* Zawartość drugiego pliku CSS */
-.example-class {
-    color: #000;
-    font-size: 16px;
-    text-align: left;
-}
-
